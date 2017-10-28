@@ -3,9 +3,8 @@ ul {
     margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: #fdda06;
-    position: fixed;
-    top: 0;
+    background-color: #ffe4e1;
+    position: auto;
     width: 100%;
 }
 
@@ -22,17 +21,60 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #edcc15;
+    background-color: #ffffff;
+
 }
 .active {
-    background-color: #42a12d;
+    background-color: #ffe4e1;
 }
 
 /* bio block*/
 div.bio {
     max-width: 1000px;
     margin: 25px;
-    border: 3px solid #42a12d
+    border: 3px solid #ffd1dc;
     border-radius: 25px;
     text-align: center;
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Calendar Style */
+.monthPre{
+ color: grey;
+ text-align: center;
+
+}
+.monthNow{
+ color: black;
+ text-align: center;
+ height: 60px;
+}
+.dayNow{
+ border: 2px solid black;
+ color: black;
+ text-align: center;
+}
+.calendar td{
+ htmlContent: 2px;
+
+ width: 180px;
+ height: 75px;
+ margin: auto;
+ position: auto;
+ text-align: center;
+}
+.monthNow th{
+ background-color: powderblue;
+ color: #FFFFFF;
+ text-align: center;
+}
+.dayNames{
+
+ background: #cedde2;
+ color: #FFFFFF;
+ text-align: center;
 }
